@@ -1,4 +1,7 @@
 # opensource
+# Qiita.良い README.md を書くためのテンプレート（翻訳） - Qiita
+# https://qiita.com/KamataRyo/items/466255fc33da12274c72
+
 Project Title / プロジェクトのタイトル
 One Paragraph of project description goes here
 プロジェクトの概要を 1 段落でここに書きます
@@ -80,6 +83,3 @@ Hat tip to anyone whose code was used / コードを書いた人への感謝
 Inspiration / 何からインスピレーションを得たか
 
 etc / その他
-
-# Qiita.良い README.md を書くためのテンプレート（翻訳） - Qiita
-# https://qiita.com/KamataRyo/items/466255fc33da12274c72
