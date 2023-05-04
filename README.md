@@ -81,5 +81,5 @@ Inspiration / 何からインスピレーションを得たか
 
 etc / その他
 
-#Qiita.良い README.md を書くためのテンプレート（翻訳） - Qiita
-#https://qiita.com/KamataRyo/items/466255fc33da12274c72
+# Qiita.良い README.md を書くためのテンプレート（翻訳） - Qiita
+# https://qiita.com/KamataRyo/items/466255fc33da12274c72
