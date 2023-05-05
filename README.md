@@ -73,7 +73,7 @@ See also the list of contributors who participated in this project.
 
 License / ライセンス
 This project is licensed under the MIT License - see the LICENSE.md file for details
-このプロジェクトは Apache License 2.0ライセンスの元にライセンスされています。 詳細はLICENSE.mdをご覧ください。
+このプロジェクトは MITライセンスの元にライセンスされています。 詳細はLICENSE.mdをご覧ください。
 
 Acknowledgments / 謝辞
 Hat tip to anyone whose code was used / コードを書いた人への感謝
