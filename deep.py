@@ -12,7 +12,7 @@ import chainer.links as L
 import chainer.functions as F
 import numpy as np
 
-FILE_NAME = r"C:\Users\coff-\OneDrive\デスクトップ\Hack\my_mnist.model"
+FILE_NAME = r""
 
 # データセットがダウンロード済みでなければ、ダウンロードも行う
 train_val, test = mnist.get_mnist(withlabel=True, ndim=1)
