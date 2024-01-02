@@ -4,8 +4,8 @@ from matplotlib import pyplot as plt
 import subprocess
 
 
-FILE = r"C:\Users\coff-\OneDrive\デスクトップ\Hack\水着1.jpg"
-CASCADE = r"C:\Users\coff-\OneDrive\デスクトップ\Hack\haarcascades\haarcascade_frontalface_alt.xml"
+FILE = r""
+CASCADE = r""
 
 img = cv2.imread(FILE)
 #画像の高さ
