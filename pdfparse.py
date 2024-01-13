@@ -3,7 +3,7 @@
 """
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextContainer, LTTextLine, LTChar
-pdf_file_path = "./20220631mxt_gakushi_000004157.pdf"
+pdf_file_path = ""
 for page_layout in extract_pages(pdf_file_path):
     for element in page_layout:
         if isinstance(element, LTTextContainer):
@@ -19,7 +19,7 @@ for page_layout in extract_pages(pdf_file_path):
 """
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextContainer
-pdf_file_path = "./20220631mxt_gakushi_000004157.pdf"
+pdf_file_path = ""
 
 for page_layout in extract_pages(pdf_file_path):
     for element in page_layout:
@@ -47,7 +47,7 @@ from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
 
-pdf_file_path = "./20220631mxt_gakushi_000004157.pdf"
+pdf_file_path = ""
 
 current_page = 5
 last_page = 48
@@ -68,7 +68,7 @@ from pdfminer.high_level import extract_text, extract_text_to_fp
 from pdfminer.layout import LAParams
 import time
 
-file="./000648237"
+file=""
 pdf_file_path = file + ".pdf"
 text_file_path = file + ".txt"
 html_file_path = file + ".html"
@@ -102,7 +102,7 @@ from pdfminer.pdfpage import PDFPage
 from pdfminer.layout import LAParams
 from io import StringIO
 
-pdf_file_path = "20220631mxt_gakushi_000004157"
+pdf_file_path = ""
 
 with open(pdf_file_path , "rb") as pdf_file: #ファイルオブジェクトを受け取り、変数「pdf_file」に代入。
     output = StringIO() #コンソールに出力されたテキストを取得するため、IOクラス「StringIO」使用
@@ -134,7 +134,7 @@ from pdfminer.pdfinterp import PDFPageInterpreter
 from pdfminer.pdfdevice import PDFDevice
 
 # Open a PDF file.
-fp = open("20220631mxt_gakushi_000004157.pdf", 'rb')
+fp = open(".pdf", 'rb')
 
 # Create a PDF parser object associated with the file object.
 parser = PDFParser(fp)
