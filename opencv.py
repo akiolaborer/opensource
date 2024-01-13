@@ -34,7 +34,7 @@ plt.show()
 
 # 画像をトリミング
 #trim = img[200: 500, 300: 600]
-#cv2.imwrite(r"C:\Users\coff-\OneDrive\デスクトップ\Hack\trim.jpg", trim)
+#cv2.imwrite(r".jpg", trim)
 
 #resize = cv2.resize(img, dsize=(200, 200))
 #resize = cv2.resize(img, dsize=None, fx=1, fy=0.5)
@@ -53,12 +53,12 @@ face = cascade.detectMultiScale(gray, minSize = (20, 20))
 
 # 白黒に変換
 #ret, thresh = cv2.threshold(gray, 120, 255, cv2.THRESH_BINARY_INV)
-#cv2.imwrite(r"C:\Users\coff-\OneDrive\デスクトップ\Hack\change1.png", thresh)
+#cv2.imwrite(r".png", thresh)
 
 # 輪郭検出
 #img, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 #cv2.drawContours(img, contours, -1, (0, 0, 255), 10)
-#cv2.imwrite(r"C:\Users\coff-\OneDrive\デスクトップ\Hack\change2.png", img)
+#cv2.imwrite(r".png", img)
 
 # 円を検出
 #circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, dp=0.8, minDist=50, param1=100, param2=60, minRadius=0, maxRadius=0)
