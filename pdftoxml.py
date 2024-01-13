@@ -6,7 +6,7 @@ from pdfminer.layout import LAParams
 from io import BytesIO
 
 input = BytesIO()
-with open("20220631mxt_gakushi_000004157.pdf", 'rb') as f:
+with open(".pdf", 'rb') as f:
     input.write(f.read())
 
     laparams = LAParams(all_texts=True)
