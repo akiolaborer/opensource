@@ -1,6 +1,6 @@
 ﻿import MeCab
 
-FILE_NAME = r"C:\Users\coff-\OneDrive\デスクトップ\Hack\電話営業20230316.txt"
+FILE_NAME = r""
 
 with open(FILE_NAME, "r", encoding="utf-8") as f:
     CONTENT = f.read()
