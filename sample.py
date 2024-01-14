@@ -37,7 +37,7 @@ try:
     print(mining)
     print(type(mining))
     
-    FILE_NAME = r"C:\Users\coff-\OneDrive\デスクトップ\Hack\real.csv"
+    FILE_NAME = r".csv"
     with open(FILE_NAME, "w", encoding="utf-8") as f:
         for result in mining:
             f.writelines(result)
