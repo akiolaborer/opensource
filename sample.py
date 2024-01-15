@@ -1,6 +1,7 @@
 ﻿import MeCab
+import sys
 
-FILE_NAME = r""
+FILE_NAME = argv[1]
 
 with open(FILE_NAME, "r", encoding="utf-8") as f:
     CONTENT = f.read()
