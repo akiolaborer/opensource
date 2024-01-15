@@ -2,10 +2,12 @@
 from io import StringIO
 from pdfminer.high_level import extract_text, extract_text_to_fp
 from pdfminer.layout import LAParams
+import sys
 import time
 
-file=""
-pdf_file_path = file + ".pdf"
+file = argv[1]
+pdf_file_path = argv[1]
+
 text_file_path = file + ".txt"
 html_file_path = file + ".html"
 xml_file_path = file +  ".xml"
