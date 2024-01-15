@@ -4,9 +4,10 @@ from pdfminer.pdfinterp import PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.layout import LAParams
 from io import BytesIO
+import sys
 
 input = BytesIO()
-with open(".pdf", 'rb') as f:
+with open(argv[1], 'rb') as f:
     input.write(f.read())
 
     laparams = LAParams(all_texts=True)
@@ -21,4 +22,3 @@ with open(".pdf", 'rb') as f:
         device.close()
         output.close()
     input.close()
-
