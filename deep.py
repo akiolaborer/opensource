@@ -12,7 +12,9 @@ import chainer.links as L
 import chainer.functions as F
 import numpy as np
 
-FILE_NAME = r""
+import sys
+
+FILE_NAME = argv[1]
 
 # データセットがダウンロード済みでなければ、ダウンロードも行う
 train_val, test = mnist.get_mnist(withlabel=True, ndim=1)
