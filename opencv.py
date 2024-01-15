@@ -3,9 +3,11 @@ import numpy as np
 from matplotlib import pyplot as plt
 import subprocess
 
+import sys
 
-FILE = r""
-CASCADE = r""
+
+FILE = argv[1]
+CASCADE = argv[2]
 
 img = cv2.imread(FILE)
 #画像の高さ
