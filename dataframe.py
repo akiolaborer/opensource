@@ -4,7 +4,9 @@ import numpy
 import matplotlib.pyplot as plot
 import japanize_matplotlib
 
-FILE_NAME = r""
+import sys
+
+FILE_NAME = argv[1]
 dataset = pandas.read_csv(FILE_NAME)
 
 print(dataset.head(1))
