@@ -6,8 +6,9 @@ import subprocess
 import sys
 
 
-FILE = argv[1]
-CASCADE = argv[2]
+# First two command-line arguments: image path and cascade classifier
+FILE = sys.argv[1]
+CASCADE = sys.argv[2]
 
 img = cv2.imread(FILE)
 #画像の高さ

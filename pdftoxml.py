@@ -7,7 +7,7 @@ from io import BytesIO
 import sys
 
 input = BytesIO()
-with open(argv[1], 'rb') as f:
+with open(sys.argv[1], 'rb') as f:
     input.write(f.read())
 
     laparams = LAParams(all_texts=True)
