@@ -14,7 +14,8 @@ import numpy as np
 
 import sys
 
-FILE_NAME = argv[1]
+# First command-line argument specifies output filename for model
+FILE_NAME = sys.argv[1]
 
 # データセットがダウンロード済みでなければ、ダウンロードも行う
 train_val, test = mnist.get_mnist(withlabel=True, ndim=1)

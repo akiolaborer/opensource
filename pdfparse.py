@@ -5,8 +5,9 @@ from pdfminer.layout import LAParams
 import sys
 import time
 
-file = argv[1]
-pdf_file_path = argv[1]
+# Input PDF file is given as the first command-line argument
+file = sys.argv[1]
+pdf_file_path = sys.argv[1]
 
 text_file_path = file + ".txt"
 html_file_path = file + ".html"

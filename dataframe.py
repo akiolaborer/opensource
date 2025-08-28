@@ -6,7 +6,8 @@ import japanize_matplotlib
 
 import sys
 
-FILE_NAME = argv[1]
+# Expect the first command-line argument to be the CSV file name
+FILE_NAME = sys.argv[1]
 dataset = pandas.read_csv(FILE_NAME)
 
 print(dataset.head(1))
